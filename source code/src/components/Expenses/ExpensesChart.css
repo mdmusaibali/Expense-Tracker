@@ -1,0 +1,16 @@
+.expenses-chart {
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.expenses-chart-label {
+  font-weight: 800;
+  color: #222831;
+  letter-spacing: 1px;
+}

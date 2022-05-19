@@ -1,0 +1,12 @@
+.new-expense {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 3rem 2rem;
+  background-color: #00adb5;
+  margin-bottom: 3rem;
+}
+@media (max-width: 620px) {
+  .new-expense {
+    max-width: 100%;
+  }
+}
