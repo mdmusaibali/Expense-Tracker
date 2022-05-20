@@ -41,6 +41,7 @@ function ExpenseForm(props) {
             value={enteredTitle}
             placeholder="Title"
             onChange={handleTitleChange}
+            required
           ></input>
           <label className="form-label" htmlFor="title">
             Title
@@ -55,6 +56,7 @@ function ExpenseForm(props) {
             value={enteredAmount}
             onChange={handleAmountChange}
             min="1"
+            required
           ></input>
           <label className="form-label" htmlFor="amount">
             Amount
@@ -68,7 +70,9 @@ function ExpenseForm(props) {
             onChange={handleDateChange}
             value={enteredDate}
             id="datePickerId"
+            min="2020-01-01"
             max={new Date().toLocaleDateString("en-ca")}
+            required
           ></input>
         </div>
       </div>
